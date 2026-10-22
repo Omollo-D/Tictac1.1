@@ -1,0 +1,62 @@
+body {
+  background-color: #2c2d2d;
+  opacity: 0.8;
+  background-image:
+    radial-gradient(
+      circle at 10px 100%,
+      transparent 9px,
+      #444cf7 9px,
+      #444cf7 10px,
+      transparent 10px
+    ),
+    radial-gradient(
+      circle at 10px 0%,
+      transparent 9px,
+      #444cf7 9px,
+      #444cf7 10px,
+      transparent 10px
+    );
+  background-size: 20px 10px;
+  background-position:
+    0 0,
+    10px 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+  color: #f0f0f0;
+}
+main {
+  display: flex;
+  width: 100%;
+  padding: 4rem;
+}
+form {
+  width: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  margin: 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 8rem);
+}
+.box {
+  background-color: #161032;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 1rem;
+  border: 1px solid #285b64;
+  color: white;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
